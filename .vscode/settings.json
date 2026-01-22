@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+
+    "astro.content-intellisense": true,
+    "biome.enabled": false,
+
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode",
+    },
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.defaultFormatter": "vscode.markdown-language-features"
+    }
+}
